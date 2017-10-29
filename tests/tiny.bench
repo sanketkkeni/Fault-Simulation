@@ -1,0 +1,7 @@
+INPUT(A)
+INPUT(B)
+
+OUTPUT(O)
+
+O = NOT(N)
+N = XNOR(A, B)

@@ -1,0 +1,16 @@
+# xor
+# 2 inputs
+# 1 outputs
+# 2 inverters
+# 3 gates (2 ANDs + 1 ORs)
+
+INPUT(A)
+INPUT(B)
+
+OUTPUT(G)
+
+C = NOT(A)
+D = NOT(B)
+E = AND(C, B)
+F = AND(D, A)
+G = OR(E, F)

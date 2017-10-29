@@ -1,0 +1,11 @@
+INPUT(A)
+INPUT(B)
+INPUT(Cin)
+OUTPUT(S)
+OUTPUT(Cout)
+
+D = XOR(A,B)
+E = AND(A,B)
+S = XOR(D, Cin)
+F = AND(D, Cin)
+Cout = OR(F, E)
